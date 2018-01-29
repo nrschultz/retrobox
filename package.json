@@ -1,0 +1,40 @@
+{
+  "name": "retrobox",
+  "version": "0.1.0",
+  "description": "A package for consuming Retrosheet data files",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrschultz/retrobox.git"
+  },
+  "keywords": [
+    "retrosheet",
+    "baseball",
+    "boxscore"
+  ],
+  "author": "Nick Schultz <nrschultz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrschultz/retrobox/issues"
+  },
+  "homepage": "https://github.com/nrschultz/retrobox#readme",
+  "dependencies": {
+    "@types/glob": "^5.0.35",
+    "@types/lodash": "^4.14.96",
+    "@types/moment": "^2.13.0",
+    "console.table": "^0.10.0",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/mz": "^0.0.32",
+    "@types/node": "^9.3.0",
+    "ava": "^0.25.0",
+    "typescript": "^2.6.2"
+  }
+}

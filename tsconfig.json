@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "target": "es6",
+        "lib": ["DOM", "ES6", "ES2015.Promise"],
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "outDir": "out",
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules",
+        "src/database/sequelize/migrations/.sample-migration.ts"
+    ]
+}
